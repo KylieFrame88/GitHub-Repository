@@ -1,4 +1,3 @@
-
 #header-logo {
   -webkit-animation: fadeIn .3s ease-in-out;
   -moz-transition: fadeIn .3s ease-in-out;
@@ -6,12 +5,24 @@
   transition: fadeIn .3s ease-in-out;
   border-radius: 60px;
   overflow: hidden;
-  width: 72px;
-  height: 72px;
+  width: 355px;
+  height: 300px;
+  min-width: 155px;
   position: relative;
   margin: 0;
   padding: 0;
   animation: fadeIn .3s ease-in-out;
+}
+.bgcolor-purple{
+  background-color: #630067;
+}
+
+.head-nav{color:white;margin: auto;}
+
+ul li{
+ list-style-type: none;
+ display: inline;
+ padding-left: 10px;
 }
 
 .image-text {
@@ -33,21 +44,58 @@ a {
   text-decoration: none;
 }
 #header-logo .mask {
-  background-image: url(../img/Bio-Face.png);
+  background-image: url(../img/Bio-Face-300px.png);
   position: absolute;
-  height: 72px;
-  width: 72px;
+  height: 300px;
+  width: 355px;
   z-index: 1000;
 }
 #header-logo span {
   display: block;
 }
 #header-logo .behind {
-  background: #f6f9f8;
   position: absolute;
-  height: 72px;
-  width: 72px;
+  height: 300px;
+  width: 355px;
   z-index: 800;
+}
+#header-logo i {
+  position: absolute;
+  left: 7px;
+  top: 11px;
+  width: 355px;
+  height: 200px;
+  background: url(../img/) no-repeat;
+  z-index: 900;
+}
+
+header .nav-list {
+  padding-top: 1.5em;
+  padding-left: 0;
+  position: relative;
+  float: right;
+}
+.transistion {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.nav-list li:first-child a {
+  margin-left: 0;
+}
+.nav-list li a.active {
+  color: #ec90ff;
+}
+.nav-list li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fcd9ff;
+  font-weight: 400;
+  margin: 0 0 0 1em;
+  font-size: 120%;
 }
 
 /*!
@@ -687,8 +735,6 @@ a {
   .col-xl-auto {
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     transition: 0.5s;
   }
   
@@ -6211,7 +6257,7 @@ a {
       height: min-content;
     }
     .modal-sm {
-      max-width: 300px;
+      max-width: 355px;
     }
   }
   
@@ -10073,6 +10119,12 @@ a {
     text-align: center !important;
   }
   
+  @media (max-width: 767px) {
+    header .nav-list{float: none;margin-left: auto;margin-right: auto;display:table;}
+    #header-logo{margin-left: auto;margin-right: auto;display: table;}
+  }
+  
+
   @media (min-width: 576px) {
     .text-sm-left {
       text-align: left !important;
