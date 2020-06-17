@@ -1,43 +1,17 @@
 
 #header-logo {
-    -webkit-animation: fadeIn .3s ease-in-out;
-    -moz-transition: fadeIn .3s ease-in-out;
-    -o-transition: fadeIn .3s ease-in-out;
-    transition: fadeIn .3s ease-in-out;
-    border-radius: 60px;
-    overflow: hidden;
-    width: 72px;
-    height: 72px;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    animation: fadeIn .3s ease-in-out;
-}
-
-#header-logo .mask {
-    background-image: url(D:\GitHub Repository\Website-FlatDesign_Bootstrap\img\Bio-Face.png);
-    position: absolute;
-    height: 72px;
-    width: 72px;
-    z-index: 1000;
-}
-
-#header-logo .behind {
-  background: #f6f9f8;
-  position: absolute;
-  height: 72px;
+  -webkit-animation: fadeIn .3s ease-in-out;
+  -moz-transition: fadeIn .3s ease-in-out;
+  -o-transition: fadeIn .3s ease-in-out;
+  transition: fadeIn .3s ease-in-out;
+  border-radius: 60px;
+  overflow: hidden;
   width: 72px;
-  z-index: 800;
-}
-
-#header-logo i {
-  position: absolute;
-  left: 7px;
-  top: 11px;
-  width: 300px;
-  height: 200px;
-  background: url(../img/) no-repeat;
-  z-index: 900;
+  height: 72px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn .3s ease-in-out;
 }
 
 .image-text {
@@ -57,6 +31,23 @@
 a {
   color: #e0ebe8;
   text-decoration: none;
+}
+#header-logo .mask {
+  background-image: url(../img/Bio-Face.png);
+  position: absolute;
+  height: 72px;
+  width: 72px;
+  z-index: 1000;
+}
+#header-logo span {
+  display: block;
+}
+#header-logo .behind {
+  background: #f6f9f8;
+  position: absolute;
+  height: 72px;
+  width: 72px;
+  z-index: 800;
 }
 
 /*!
