@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<title>CV INDEX TEMPLATE</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="master.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
--->
-<body class="light-grey">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kylie Frame's Portfolio Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A portfolio page outlining Kylie Frame's work, education, and achievement history.">
+        <meta name="keywords" content="Website, Specialist, Web Marketing, Analytics, Developer, Project Manager, Support, Online Branding">
+        <meta name="author" content="Kylie Frame">
+        <!--Open Graph Meta Tags-->
+        <meta property="og:title" content="Kylie Frame's Portfolio Page">
+        <meta property="og:site_name" content="Kylie Frame's Portfolio Page">
+        <meta property="og:url" content="http://kylieframe.com/">
+        <meta property="og:description" content="A portfolio page outlining Kylie Frame's work, education, and achievement history.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://kylieframe.com/img/KylieFrame.jpg">
+        <!--Schema Markup-->
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Person",
+              "name": "Kylie Frame",
+              "url": "http://kylieframe.com/",
+              "image": "http://kylieframe.com/img/KylieFrame.jpg",
+              "sameAs": [
+                "https://www.facebook.com/kylie.frame.7",
+                "https://www.linkedin.com/in/kylie-frame-0784777a"
+              ],
+              "jobTitle": "Website Specialist, Analyst, and Project Manager"  
+            }
+        </script>
+        <!--Canonical Tag-->
+        <link rel="canonical" href="http://www.kylieframe.com/">
 
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="master.css" type="text/css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        -->
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169745198-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169745198-1');
+        </script>
+    </head>
+
+<body class="light-grey">
+    <!-- Back to top of page button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up"></i></button>
 
+    <!-- Head Wrapper / Navigation-->
     <div id="head-wrapper">
         <header>
             <nav>
@@ -32,7 +76,7 @@
         </header>
     </div>
 
-    <!-- Page Container -->
+    <!-- Entire Page Container -->
     <div class="content margin-top" style="max-width:1400px;">
 
         <!-- The Grid -->
@@ -41,14 +85,16 @@
             <!-- Left Column -->
             <div class="third">
 
+                <!-- Bio Img -->
                 <div class="white text-grey card-4">
                     <div class="display-container">
-                        <img src="img/KylieFrame.jpg" style="width:100%" alt="Avatar">
+                        <img src="img/KylieFrame.jpg" style="width:100%" alt="Kylie Frame">
                         <div class="display-bottomleft container ">
                             <h2>Kylie Frame</h2>
                         </div>
                     </div>
                     
+                    <!-- Bio Contact Details -->
                     <div class="container">
                         <p><i class="fa fa-briefcase fa-fw margin-right large text-deep-purple"></i>Website/SEO Specialist</p>
                         <p><i class="fa fa-home fa-fw margin-right large text-deep-purple"></i>Dallas, Tx</p>
@@ -57,31 +103,55 @@
                         <hr>
 
 
-
-                        <p class="large text-theme"><b><i
-                                    class="fa fa-globe fa-fw margin-right text-deep-purple"></i>Languages</b></p>
-                        <p>English</p>
-                        <div class="light-grey round-xlarge">
-                            <div class="round-xlarge deep-purple" style="height:24px;width:100%">&nbsp;&nbsp;100% </div>
-                        </div>
-                        <p>Spanish</p>
-                        <div class="light-grey round-xlarge">
-                            <div class="round-xlarge deep-purple" style="height:24px;width:25%">&nbsp;&nbsp;25% </div>
-                        </div>
-                        <p>HTML</p>
-                        <div class="light-grey round-xlarge">
-                            <div class="round-xlarge deep-purple" style="height:24px;width:100%">&nbsp;&nbsp;100% </div>
-                        </div>
-                        <p>CSS</p>
-                        <div class="light-grey round-xlarge">
-                            <div class="round-xlarge deep-purple" style="height:24px;width:100%">&nbsp;&nbsp;100% </div>
-                        </div>
-                        <p>Java / Javascript</p>
-                        <div class="light-grey round-xlarge">
+                        <!-- Additional Bio Details -->
+                        <!--In line language completion bars-->
+                        <p class="large text-theme"><b><i class="fa fa-globe fa-fw margin-right text-deep-purple"></i>Languages</b></p>
+                        <p class="menutitles">English</p>
+                        <div class="progresscontainer">    
+                            <div class="progress progress-moved">
+                              <div class="progress-bar" >
+                                  <p class="progresstext">100 %</p>
+                              </div>                       
+                            </div> 
+                          </div>
+                        <p class="menutitles">Spanish</p>
+                        <div class="progresscontainer">    
+                            <div class="progress progress-moved">
+                              <div class="progress-bar3" >
+                                  <p class="progresstext">25 %</p>
+                              </div>                       
+                            </div> 
+                          </div>
+                        <p class="menutitles">HTML</p>
+                        <div class="progresscontainer">    
+                            <div class="progress progress-moved">
+                              <div class="progress-bar" >
+                                  <p class="progresstext">100 %</p>
+                              </div>                       
+                            </div> 
+                          </div>
+                        <p class="menutitles">CSS</p>
+                        <div class="progresscontainer">    
+                            <div class="progress progress-moved">
+                              <div class="progress-bar" >
+                                  <p class="progresstext">100 %</p>
+                              </div>                       
+                            </div> 
+                          </div>
+                        <p class="menutitles">Java / Javascript</p>
+                        <div class="progresscontainer">    
+                            <div class="progress progress-moved">
+                              <div class="progress-bar2" >
+                                  <p class="progresstext">50 %</p>
+                              </div>                       
+                            </div> 
+                          </div>
+                        <!--<div class="light-grey round-xlarge">
                             <div class="round-xlarge deep-purple" style="height:24px;width:50%">&nbsp;&nbsp;50% </div>
-                        </div>
+                        </div>-->
 
                         <hr>
+                        <!-- Addional Bio Details (Skills) ??REDO LATER?? -->
                         <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-deep-purple"></i>Skills</b></p>
                         <p>Adobe Photoshop</p>
 
@@ -175,7 +245,7 @@
                     
 
                 </div>
-                <button type="button" class="collapsible deep-purple"><i class="fa fa-caret-down"></i> Want to see even more work experience?</button>
+                <button type="button" class="collapsible"><i class="fa fa-caret-down"></i> Want to see even more work experience?</button>
                 <div class="collapsecontent container card white margin-bottom">
 
                     <div class="container clearfix" style="padding-top: 2em;"><div class="row">
