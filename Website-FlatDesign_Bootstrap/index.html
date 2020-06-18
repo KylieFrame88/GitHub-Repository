@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
-        <link href="css/master.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <title>Kylie Frame's Portfolio Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A portfolio page outlining Kylie Frame's work, education, and achievement history.">
+        <meta name="keywords" content="Website, Specialist, Web Marketing, Analytics, Developer, Project Manager, Support, Online Branding">
+        <meta name="author" content="Kylie Frame">
+        <!--Open Graph Meta Tags-->
+        <meta property="og:title" content="Kylie Frame's Portfolio Page">
+        <meta property="og:site_name" content="Kylie Frame's Portfolio Page">
+        <meta property="og:url" content="http://kylieframe.com/">
+        <meta property="og:description" content="A portfolio page outlining Kylie Frame's work, education, and achievement history.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://kylieframe.com/img/KylieFrame.jpg">
+        <!--Schema Markup-->
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Person",
+              "name": "Kylie Frame",
+              "url": "http://kylieframe.com/",
+              "image": "http://kylieframe.com/img/KylieFrame.jpg",
+              "sameAs": [
+                "https://www.facebook.com/kylie.frame.7",
+                "https://www.linkedin.com/in/kylie-frame-0784777a"
+              ],
+              "jobTitle": "Website Specialist, Analyst, and Project Manager"  
+            }
+        </script>
+        <!--Canonical Tag-->
+        <link rel="canonical" href="http://www.kylieframe.com/">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/master.css" type="text/css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+        <link rel=""
+       
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169745198-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169745198-1');
+        </script>
     </head>
 
     <body class="">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up"></i></button>
         <section id="top">
             <header class="bgcolor-purple">
                 <div class="container ">
@@ -36,9 +83,9 @@
                 <div class="container ">
                     <div class="row">
                         <div class="col-md-12 col-xs-12 head-nav">
-                             <p> NEW ROW 2 </p>   
+                             <h2>Welcome! I'm Kylie!</h2>   
                         </div>
-
+                            
                         
                     </div> <!-- /Row -->
                 </div> <!-- /Container -->
@@ -47,10 +94,143 @@
             </header>
         </section>
 
-        <script
-        src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-        crossorigin="anonymous"></script>
+        
+            <section id="intro">
+                <br>
+                <h2 style="text-align: center;">Article 1</h2>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <article id="outro">
+                                <h3>Header 1</h3>
+                                <p>Hey, this is more stuff about me. Like me and hire me why dont you! ASDF aSDGBFdsglkjarsdl f aewojf adsgfkn asdpfhnasdfn jadfngjksnb ad gfjbansdf gokjbh</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <article id="top">
+                                <h3>Header 2</h3>
+                                <p>I'm a web designer / developer based in Dallas, Texas. I have a passion for all things Tech Related. </p>
+                            </article>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <svg class="bd-placeholder-img" width="100%" height="500px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                        <div class="container">
+                          <div class="carousel-caption text-left">
+                            <h1>Example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="500px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                        <div class="container">
+                          <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="500px" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
+                        <div class="container">
+                          <div class="carousel-caption text-right">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+                <br>
+                <h2 style="text-align: center;">Article 2</h2>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <article id="outro">
+                                <h3>Header 3</h3>
+                                <p>Hey, this is more stuff about me. Like me and hire me why dont you! ASDF aSDGBFdsglkjarsdl f aewojf adsgfkn asdpfhnasdfn jadfngjksnb ad gfjbansdf gokjbh</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </section>
+
+            <section id="footer">
+                <div class="container">
+                    <div class="row">
+                        <footer class="container deep-purple center margin-top">
+                            <p>Find me on social media.</p>
+                            <a href="https://www.facebook.com/kylie.frame.7" target="_blank" class="fa fa-facebook-official hover-opacity"></a>
+                            <a href="https://www.linkedin.com/in/kylie-frame-0784777a" target="_blank" class="fa fa-linkedin hover-opacity"></a>
+                            <a class="fa fa-twitter hover-opacity"></a>
+                            <a class="fa fa-instagram hover-opacity"></a>
+                            <p> &copy; 2020 - <a href="/index.html"><u>Kylie Frame</u></a> | All rights reserved.</p>
+                        </footer>                    
+                    </div>
+                </div>
+            </section>
+
+            
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+
+        <script> //Get the button:
+            mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 40px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }</script>
 
     </body>
 </html>
