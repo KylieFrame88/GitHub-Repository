@@ -14,8 +14,9 @@
   animation: fadeIn .3s ease-in-out;
 }
 .bgcolor-purple{
-  background-color: #630067;
+  background-color: #ff97d1;
   padding-top: 20px;
+  
 }
 
 .head-nav{color:white;margin: auto;}
@@ -44,7 +45,7 @@ a {
   text-decoration: none;
 }
 #header-logo .mask {
-  background-image: url(../img/Bio-Face-300px.png);
+  background-image: url(../img/Bio-Face-300px-new.png);
   position: absolute;
   height: 300px;
   width: 355px;
@@ -69,6 +70,10 @@ a {
   z-index: 900;
 }
 
+#head-img-wrap{
+  width:100%;
+}
+
 header .nav-list {
   padding-top: 1.5em;
   padding-left: 0;
@@ -87,7 +92,7 @@ ul, ol {
   margin-left: 0;
 }
 .nav-list li a.active {
-  color: #ec90ff;
+  color: #9B216A;
   text-decoration: underline;
 }
 .nav-list li a:hover {
@@ -108,7 +113,7 @@ ul, ol {
   margin-bottom: 20px;
 }
 #footer{
-  background-color: #630067;
+  background-color: #FF97D1;
 }
 
 #top{border-bottom: 1px solid black;}
@@ -121,7 +126,7 @@ ul, ol {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #630067; /* Set a background color */
+  background-color: #4A0548; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -139,3 +144,7 @@ footer{
   margin: 20px;
 }
 
+.article-head{
+  color: #9B216A;
+  text-align: center;
+}
