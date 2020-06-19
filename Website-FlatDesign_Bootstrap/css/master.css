@@ -14,7 +14,8 @@
   animation: fadeIn .3s ease-in-out;
 }
 .bgcolor-purple{
-  background-color: #ff97d1;
+  background-color: #f189c2;
+  /*background: linear-gradient(0deg, rgba(255,151,209,1) 0%, rgba(255,75,175,1) 50%, rgba(147,13,88,1) 100%);*/
   padding-top: 20px;
   
 }
